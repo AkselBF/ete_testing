@@ -3,3 +3,5 @@ document.querySelector("#login-form").addEventListener("submit", (e) => {
   localStorage.setItem("email", document.querySelector("#email").value);
   window.location.href = "./profile.html";
 })
+
+// To better login
